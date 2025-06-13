@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #f0f2f5;
+  padding: 16px;
+}
+
+.sidebar-menu {
+  border-right: 0;
+}
+
+.sidebar-menu .ant-menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-menu .ant-menu-item a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
