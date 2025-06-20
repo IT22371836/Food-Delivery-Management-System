@@ -1,0 +1,62 @@
+.delivery-person-manager {
+    padding: 24px;
+    background-color: #071b39; /* Light gray background for the manager container */
+  }
+  
+  .delivery-person-header {
+    margin-bottom: 24px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(81, 97, 150, 0.03), 
+                0 1px 6px -1px rgba(163, 151, 151, 0.02), 
+                0 2px 4px 0 rgba(0, 0, 0, 0.02);
+    background-color: #ffffff; /* White background for the header card */
+  }
+  
+  .delivery-person-table-container {
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03), 
+                0 1px 6px -1px rgba(0, 0, 0, 0.02), 
+                0 2px 4px 0 rgba(0, 0, 0, 0.02);
+    background-color: #620d0d; /* White background for the table container */
+  }
+  
+  .delivery-person-cell {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: transparent; /* Transparent background for cells */
+  }
+  
+  .delivery-person-info {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent; /* Transparent background for info container */
+  }
+  
+  .ant-table-thead .ant-table-cell {
+    font-weight: 600 !important;
+    background-color: #134a81 !important; /* Light gray for table header */
+  }
+  
+  /* Zebra striping for table rows */
+  .ant-table-tbody .ant-table-row:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .ant-table-tbody .ant-table-row:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  @media (max-width: 768px) {
+    .delivery-person-manager {
+      padding: 12px;
+    }
+    
+    .delivery-person-header .ant-card-head-title {
+      padding: 12px 0;
+    }
+    
+    .delivery-person-header .ant-card-extra {
+      padding: 12px 0;
+    }
+  }
