@@ -1,0 +1,70 @@
+.logo {
+    height: 80px; /* Reduced logo height */
+  }
+  
+  .footer {
+    color: white;
+    background-color: rgb(34, 76, 34);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px 8vw;
+    margin-top: 100px;
+  }
+  
+  .footer-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    gap: 5px; /* Reduced gap between content sections */
+  }
+  
+  .footer-content-left,
+  .footer-content-right,
+  .footer-content-center {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1px; /* Reduced gap within content sections */
+  }
+  
+  .footer-content-left li,
+  .footer-content-right li,
+  .footer-content-center li {
+    list-style: none;
+    margin-bottom: 8px; /* Reduced margin between list items */
+    cursor: pointer;
+  }
+  
+  .footer-content-right h2,
+  .footer-content-center h2 {
+    color: antiquewhite;
+    margin-bottom: 15px; /* Reduced margin below headings */
+  }
+  
+  .footer-social-icons img {
+    width: 25px; /* Reduced social icon size */
+    margin-right: 10px;
+  }
+  
+  .footer-hr {
+    width: 100%;
+    margin: 1px 0; /* Reduced margin around the horizontal rule */
+  }
+  
+  .footer-copyright {
+    font-size: 1px; /* Reduced copyright text size */
+  }
+  
+  /* Media Queries for smaller screens - adjust breakpoints as needed */
+  @media (max-width: 768px) {
+    .footer-content {
+      grid-template-columns: 1fr; /* Stack columns vertically */
+    }
+    .footer-content-left {
+      align-items: center; /* Center content in the left column */
+    }
+    .footer-social-icons {
+      margin-top: 10px; /* Add margin above social icons */
+    }
+  }
